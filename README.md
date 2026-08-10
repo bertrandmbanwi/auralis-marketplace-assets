@@ -9,6 +9,11 @@ listing and marketing site.
 > `docs/rebrand/SCREENSHOT-MANIFEST.md`); filenames stay stable because the
 > live listing hotlinks their raw URLs. Nothing here is ever mocked,
 > composited, or AI-generated.
+>
+> The approved Refined Cleave logo is already integrated into the product and
+> website branches. Standalone logo masters do not belong in this real-IDE
+> capture repository; this draft remains focused on replacing the stale
+> screenshots under their compatibility-safe filenames.
 
 ## Live capture standard
 
