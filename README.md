@@ -3,14 +3,13 @@
 Public media used by the Syntalume (formerly Auralis) VS Code Marketplace
 listing and marketing site.
 
-> **Rebrand status:** all five JetBrains source captures and their five
-> upload-ready Marketplace crops now show the real Syntalume `0.10.0` plugin
-> running in an isolated PyCharm 2025.3 workspace. Some VS Code-era static
-> filenames and the two reviewed GIFs still contain approved pre-rename media;
-> those remain quarantined from current site presentation until they are
-> recaptured from the packaged Syntalume build. Filenames stay stable because
-> the live listing hotlinks their raw URLs. Nothing here is ever mocked,
-> composited, or AI-generated.
+> **Rebrand status:** the shipping set now contains only real Syntalume
+> captures. The VS Code PNGs and the two short GIF tours are derived from the
+> reviewed Syntalume `0.10.0` capture set used by the site. The five JetBrains
+> source captures and their five upload-ready Marketplace crops show the real
+> Syntalume `0.10.0` plugin running in an isolated PyCharm 2025.3 workspace.
+> Filenames stay stable because the live listing hotlinks their raw URLs.
+> Nothing here is AI-generated or reconstructed from HTML/CSS.
 >
 > The approved Refined Cleave logo is already integrated into the product and
 > website branches. Standalone logo masters do not belong in this real-IDE
@@ -20,14 +19,16 @@ listing and marketing site.
 ## Live capture standard
 
 - Every editor or plugin image must come from the installed package in the real
-  VS Code or JetBrains application. Current JetBrains images were captured from
-  Syntalume `0.10.0`; the remaining pre-rename VS Code media is explicitly
-  transitional and must not be described as a current Syntalume capture.
-- VS Code PNGs use a consistent `1280x720` output. The feature-tour GIF is
-  assembled only from real VS Code frames.
-- JetBrains source images are real PyCharm captures. Their `1280x800`
-  Marketplace variants may be cropped or resized from those captures without
-  adding or reconstructing UI.
+  VS Code or JetBrains application.
+- VS Code PNGs use a consistent `1280x720` output. Both compatibility-named
+  GIFs are four-second tours assembled only from real VS Code frames.
+- The legacy `feature-*.png` paths remain available so old listing revisions
+  do not break. They now contain neutral real Syntalume editor captures and
+  are not presented as evidence of a specific feature webview.
+- JetBrains source images are real PyCharm captures. They are cropped to omit
+  the operator's local workspace path and trial-status chrome. Their
+  `1280x800` Marketplace variants are resized from those crops without adding
+  or reconstructing UI.
 - Existing filenames stay stable because Marketplace and website copy use
   their raw GitHub URLs.
 - Allowed processing is limited to cropping, resizing, color-profile
