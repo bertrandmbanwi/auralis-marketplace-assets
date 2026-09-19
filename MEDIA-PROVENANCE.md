@@ -31,7 +31,19 @@ captures from permitted mechanical processing.
   Marketplace files are resized from those crops. No application UI was added
   or reconstructed.
 
-## Release checks
+## September 2026 reconciliation
+
+All 31 source PNGs now match these public files byte-for-byte. The source
+README uses a still, and unsupported onboarding feature screenshots have been
+replaced with text. Original capture logs/package hashes were not recovered;
+conversion lineage does not independently prove original capture provenance.
+Final installed-package visual review remains a separate release gate.
+
+The two GIFs are retired compatibility archives. They loop forever; the four
+seconds recorded below is one cycle, not a stop time. Do not embed them in
+current public copy without accessible playback controls.
+
+## Historical asset integrity checks
 
 - Every PNG has the documented output dimensions.
 - Both GIFs are 960x540 and four seconds per loop.

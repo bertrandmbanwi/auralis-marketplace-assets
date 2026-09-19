@@ -3,25 +3,23 @@
 Public media used by the Syntalume (formerly Auralis) VS Code Marketplace
 listing and marketing site.
 
-> **Rebrand status:** the shipping set now contains only real Syntalume
-> captures. The VS Code PNGs and the two short GIF tours are derived from the
-> reviewed Syntalume `0.10.0` capture set used by the site. The five JetBrains
-> source captures and their five upload-ready Marketplace crops show the real
-> Syntalume `0.10.0` plugin running in an isolated PyCharm 2025.3 workspace.
-> Filenames stay stable because the live listing hotlinks their raw URLs.
-> Nothing here is AI-generated or reconstructed from HTML/CSS.
+> **Candidate status:** the 31 PNGs match the privacy-clean capture inventory
+> used by the source candidate. Existing records describe real VS Code and
+> PyCharm captures; no replacement editor interfaces were generated.
+> Final visual approval must cover the remediated package actually published.
+> See [provenance and limitations](MEDIA-PROVENANCE.md).
 >
-> The approved Refined Cleave logo is already integrated into the product and
-> website branches. Standalone logo masters do not belong in this real-IDE
-> capture repository; this draft remains focused on replacing the stale
-> screenshots under their compatibility-safe filenames.
+> Both legacy GIF URLs remain only for historical link compatibility. They
+> loop indefinitely and are retired from current README, website, onboarding,
+> and Marketplace embeds. Use the static `variant-noir.png` preview instead.
 
 ## Live capture standard
 
 - Every editor or plugin image must come from the installed package in the real
   VS Code or JetBrains application.
-- VS Code PNGs use a consistent `1280x720` output. Both compatibility-named
-  GIFs are four-second tours assembled only from real VS Code frames.
+- VS Code PNGs use a consistent `1280x720` output. Shipping previews are
+  static images. The archived GIFs run four seconds per cycle and repeat
+  indefinitely; they are not current accessible presentation assets.
 - The legacy `feature-*.png` paths remain available so old listing revisions
   do not break. They now contain neutral real Syntalume editor captures and
   are not presented as evidence of a specific feature webview.
