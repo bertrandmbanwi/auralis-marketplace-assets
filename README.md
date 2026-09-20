@@ -36,3 +36,7 @@ Do not replace product screenshots with AI-generated editor interfaces, HTML
 reconstructions, or other mockups. Update the installed extension or plugin,
 capture the real application, and visually verify every referenced filename
 before publishing.
+
+## Integrity gate
+
+Run `node scripts/check-media.js` before committing media. Every PR must pass the Media integrity workflow; changing image bytes requires updating the checksum manifest and reviewing the actual image.

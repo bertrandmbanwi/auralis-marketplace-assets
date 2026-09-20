@@ -37,7 +37,9 @@ All 31 source PNGs now match these public files byte-for-byte. The source
 README uses a still, and unsupported onboarding feature screenshots have been
 replaced with text. Original capture logs/package hashes were not recovered;
 conversion lineage does not independently prove original capture provenance.
-Final installed-package visual review remains a separate release gate.
+The repaired source tree now enforces these hashes against the public asset set. Final installed-package visual review remains a separate release gate; no historical package hash has been invented.
+
+The `Media integrity` workflow verifies every image checksum, complete inventory, and dimensions on each PR and main update. Branch protection requires this check.
 
 The two GIFs are retired compatibility archives. They loop forever; the four
 seconds recorded below is one cycle, not a stop time. Do not embed them in
