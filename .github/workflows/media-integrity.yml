@@ -15,3 +15,9 @@ jobs:
         with:
           node-version: 24
       - run: node scripts/check-media.js
+      - name: Decode every image and check identifying metadata
+        run: |
+          python3 -m venv "$RUNNER_TEMP/media-qa"
+          "$RUNNER_TEMP/media-qa/bin/pip" install --only-binary=:all: -r requirements-qa.txt
+          "$RUNNER_TEMP/media-qa/bin/python" scripts/test-decode-media.py
+          "$RUNNER_TEMP/media-qa/bin/python" scripts/decode-media.py

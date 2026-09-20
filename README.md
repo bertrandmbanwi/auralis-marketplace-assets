@@ -39,4 +39,4 @@ before publishing.
 
 ## Integrity gate
 
-Run `node scripts/check-media.js` before committing media. Every PR must pass the Media integrity workflow; changing image bytes requires updating the checksum manifest and reviewing the actual image.
+Run `node scripts/check-media.js`, `python3 scripts/test-decode-media.py`, and `python3 scripts/decode-media.py` before committing media. Install the pinned QA-only Pillow dependency from `requirements-qa.txt`. The decoding check reads every PNG and GIF frame and rejects corrupt content and known identifying metadata patterns; visible privacy still requires human review. Every PR must pass the Media integrity workflow; changing image bytes requires updating the checksum manifest and reviewing the actual image.
