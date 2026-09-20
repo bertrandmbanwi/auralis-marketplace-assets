@@ -8,7 +8,7 @@ captures from permitted mechanical processing.
 - Source: the reviewed real-VS-Code Syntalume capture set committed to
   `bertrandmbanwi/auralis-site` PR 3 at
   `27158533e97c73e7de7a812d2979d198bb3cac8d`.
-- Processing: WebP-to-PNG conversion, metadata removal, and color-profile
+- Processing: WebP-to-PNG conversion, removal of identifying metadata, and color-profile
   normalization only. No UI, text, product state, or branding was generated or
   reconstructed.
 - `marketplace-hero.png` comes from `platform-vscode-1280.webp`.
@@ -27,9 +27,12 @@ captures from permitted mechanical processing.
 - Source: the real PyCharm 2025.3 Syntalume 0.10.0 captures previously
   committed on this branch.
 - Processing: each source was cropped to remove the operator's local workspace
-  path and trial-status chrome, then metadata was removed. The 1280x800
+  path and trial-status chrome, then identifying metadata was removed. The 1280x800
   Marketplace files are resized from those crops. No application UI was added
   or reconstructed.
+
+Benign `date:timestamp` text chunks remain in some PNGs. The processing claim
+concerns identifying metadata, not removal of every metadata chunk.
 
 ## September 2026 reconciliation
 
