@@ -56,3 +56,7 @@ current public copy without accessible playback controls.
   marker, email address, token, or secret in the shipping set.
 - `media/SHA256SUMS` pins the exact release bytes.
 
+
+## 0.10.1 icon specimens — September 23, 2026
+
+Two new 1280×720 PNG specimen sheets use exact glyph paths from the source repository at 9962cf0d686a86f8c2274cff5bfec2e79c3e2172: `icons/svg/` and `product-icons/source/`. Monochrome product glyphs are presented in a light foreground on a dark background, as a product-icon font is tinted by its host. They are explicitly labelled as enlarged vector specimens, not application screenshots. Corresponding editable SVG sheets are in `specimens/`. Rasterized with Sharp; no existing screenshots were edited.

@@ -25,5 +25,5 @@ for (const line of lines) {
 }
 const images = fs.readdirSync(directory).filter((name) => /\.(png|gif)$/.test(name));
 if (images.length !== inventory.size || images.some((name) => !inventory.has(name))) throw new Error('Checksum inventory incomplete');
-if (images.filter((name) => name.endsWith('.png')).length !== 31 || images.filter((name) => name.endsWith('.gif')).length !== 2) throw new Error('Release inventory changed; explicit review required');
+if (images.filter((name) => name.endsWith('.png')).length !== 33 || images.filter((name) => name.endsWith('.gif')).length !== 2) throw new Error('Release inventory changed; explicit review required');
 console.log(`Media integrity passed: ${inventory.size} hashes, complete inventory and image dimensions.`);
