@@ -1,0 +1,2 @@
+# Image decoding only; current stable security release, not a runtime dependency.
+Pillow==12.3.0
