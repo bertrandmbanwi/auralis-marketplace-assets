@@ -3,7 +3,7 @@
 Public media used by the Syntalume (formerly Auralis) VS Code Marketplace
 listing and marketing site.
 
-> **Candidate status:** the 31 PNGs match the privacy-clean capture inventory
+> **Candidate status:** the 31 editor PNGs match the privacy-clean capture inventory
 > used by the source candidate. Existing records describe real VS Code and
 > PyCharm captures; no replacement editor interfaces were generated.
 > Final visual approval must cover the remediated package actually published.
@@ -40,3 +40,7 @@ before publishing.
 ## Integrity gate
 
 Run `node scripts/check-media.js`, `python3 scripts/test-decode-media.py`, and `python3 scripts/decode-media.py` before committing media. Install the pinned QA-only Pillow dependency from `requirements-qa.txt`. The decoding check reads every PNG and GIF frame and rejects corrupt content and known identifying metadata patterns; visible privacy still requires human review. Every PR must pass the Media integrity workflow; changing image bytes requires updating the checksum manifest and reviewing the actual image.
+
+## Icon specimen sheets
+
+`file-icon-samples.png` and `product-icon-samples.png` are labelled vector specimen sheets, not application screenshots. Their SVG sources are in `specimens/`; the glyph paths come directly from the shipped Syntalume icon sets. They show enlarged glyphs without reconstructing editor UI. The inventory contains 31 editor PNGs, two specimen PNGs, and two archival GIFs.
