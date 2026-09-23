@@ -6,7 +6,7 @@ captures from permitted mechanical processing.
 ## VS Code set
 
 - Source: the reviewed real-VS-Code Syntalume capture set committed to
-  `bertrandmbanwi/auralis-site` PR 3 at
+  `syntalume/syntalume-site` PR 3 at
   `27158533e97c73e7de7a812d2979d198bb3cac8d`.
 - Processing: WebP-to-PNG conversion, removal of identifying metadata, and color-profile
   normalization only. No UI, text, product state, or branding was generated or
